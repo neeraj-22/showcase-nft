@@ -1,0 +1,26 @@
+.ice-breaker-emoji {
+  height: "50px";
+  width: "50px";
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-height: 50px;
+  width: 250px;
+  padding: 0 1rem;
+  color: #111;
+  background-color: #fff;
+  font-size: 15px;
+  border: 1px solid #fff;
+  border-radius: 6px 0 0 6px;
+}
+
+.input:focus,
+.input:focus-visible {
+  border-color: #fff;
+  outline: none;
+}
